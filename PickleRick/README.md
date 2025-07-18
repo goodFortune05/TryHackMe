@@ -16,13 +16,14 @@ My initial step in approaching this challenge was to perform network discovery o
 The nmap scan revealed two open ports:
 *	**22/tcp**: Running OpenSSH 8.2p1 (Ubuntu Linux)
 *	**80/tcp**: Running Apache httpd 2.4.41 (Ubuntu)
+
 The presence of an HTTP service on port 80 indicated a web server. To facilitate access, I added the target IP and a custom hostname (**picklerick.thm**) to my **/etc/hosts** file:
 
 ![Alt text](/PickleRick/assets/1.png)
 
 Navigating to **http://picklerick.thm/** in a web browser displayed a static page titled "Help Morty!" with a message from Rick. There were no immediate interactive elements.
 
-![Alt text](/PickleRick/assets/2.png)
+![Alt text](/PickleRick/assets/2.jpg)
 
 To uncover more information, I inspected the page's source code **(view-source:http://picklerick.thm/)**. This revealed a hidden comment:
 
