@@ -3,8 +3,7 @@
 
 Room link: https://tryhackme.com/room/picklerick
 
-This is a simple web application that lets you simulate exciting anime fight scenes by triggering attack animations and effects with button clicks or keyboard shortcuts. Choose your fight, unleash powerful moves, and watch your enemy's health bar drop!
-
+This Rick and Morty-themed challenge requires you to exploit a web server and find three ingredients to help Rick make his potion and transform himself back into a human from a pickle.
 
 
 ## Task 1: What is the first ingredient that Rick needs?
